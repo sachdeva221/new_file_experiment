@@ -12,8 +12,12 @@ class Test_maincode(Base):
         self.Driver.find_element(By.CSS_SELECTOR, 'button[class="style-scope ytd-searchbox"]').click()
         time.sleep(2)
 
-        while(True):
+        # while(True):
+        for i in range(5):
             time.sleep(1)
             self.Driver.execute_script("window.scrollBy(0, 1000)", "")
+
+
+
 
 
