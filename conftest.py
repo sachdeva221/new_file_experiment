@@ -21,6 +21,8 @@ def invoke(request):
         request.cls.Driver = Driver
     else:
         pass
+    # yield
+    # Driver.close()
 
 
 
